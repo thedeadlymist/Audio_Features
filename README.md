@@ -1,4 +1,4 @@
-# Adio Features
+# Audio Features
 
 This Respository by __[Vybhav Chaturvedi](https://github.com/vybhav72954), [Arman Beer Kaur](https://github.com/armanbeer)__ and __[Vedansh Varshney](https://github.com/thedeadlymist)__ revolves around Feature extraction and related information of Musical Files.
 
