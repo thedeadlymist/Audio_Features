@@ -3,7 +3,7 @@ TODO
 
 Rename File Properly
 Check if Directory exists
-Chechk th change in file size
+Check th change in file size
 '''
 
 import os
@@ -19,5 +19,5 @@ len(audio_files)
 
 for file in range(0, len(audio_files), 1):
     audio, sfreq = lr.load(audio_files[file], sr=16000, mono=True)
-    soundfile.write('C:\\Users\\asus\\Desktop\\Features\\Song1\\%s.wav' % str(file+1).zfill(3), audio, 16000, subtype='PCM_24')
+    soundfile.write('C:\\Users\\asus\\Desktop\\Features\\Song1\\%s.wav' % str(file+1).zfill(3), audio, 16000, subtype='PCM_24') # Song1 should exist beforehand
     print ('Done {}'.format(str(file)))
